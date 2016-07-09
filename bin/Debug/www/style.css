@@ -1,0 +1,74 @@
+body
+{
+	background-color: transparent;
+
+	padding-bottom: 50px;
+	background: url('./bg.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+
+.darkButton
+{
+	 background-color: rgba(0, 50, 0, 0.2);
+	 border-color: rgba(150, 150, 150, 0.2);
+	 color: white;
+
+}
+
+.darkButton:hover
+{
+	 background-color: rgba(0, 150, 0, 0.1);
+	 border-color: rgba(0, 150, 0, 0.1);
+	 color: #9d9d9d;
+}
+
+.blurred a
+{
+    color:rgba(0, 150, 0, 0.1);
+}
+
+.blurred
+{
+	display: block;	
+	width: 80%;
+	margin: auto;	
+	color:rgba(0, 150, 0, 0.1);
+	text-shadow: 1px 1px  6px rgba(0, 0, 0, 0.3);	
+}
+.blurred:hover a
+{
+	display: block;	
+	width: 80%;	
+	color: white;
+	text-shadow: 0px 1px 4px black;	
+	text-decoration: none;
+}
+#header
+{
+	display: block;
+	
+	width: 80%;
+	margin: auto;
+	margin-top: 10%;	
+	color:rgba(0, 150, 0, 0.6);
+	color: white;
+	text-shadow: 0px 1px 4px black;
+}
+
+#container
+{
+	display: block;
+	max-width: 800px;
+	width: 80%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #f0ad4e;
+	text-shadow: 1px 1px 4px black;
+	background-color: rgba(5, 50, 5, 0.1);
+	border-radius: 3px;
+	padding: 5px;
+}

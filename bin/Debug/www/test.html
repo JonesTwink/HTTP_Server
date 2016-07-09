@@ -1,0 +1,39 @@
+<html lang="ru">
+  <head>
+    <meta charset = "utf-8">
+    <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>JS lab6 tester</title>
+    <link href = "./style.css" rel="stylesheet" type="text/css">
+    <link href = "./bootstrap.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> 
+    <script src = "./servertest.js"></script>
+  </head>           
+  <body>
+ 
+  <div id="header">
+    <center><h2>Тест HTTP-сервера</h2></center>
+  </div>
+  <div id="container">  
+       <input class="form-control"    type="text"   id="address" placeholder ="Адрес сервера" value="127.0.0.1:81/content.html" />       
+  </div> 
+  <center>
+         <input class="btn darkButton"  type="button" id="buttonGet" value="Отпраить GET!"/>
+         <input class="btn darkButton"  type="button" id="buttonPost" value="Отпраить POST!"/>
+         <input class="btn darkButton"  type="button" id="buttonPut" value="Отправить PUT!"/>
+         <input class="btn darkButton"  type="button" id="buttonDelete" value="Отпраить DELETE!"/>
+  </center>
+  <div class="blurred">
+    <center><h2><a href="http://vk.com/arthur4"> Arthur Zhukovski, 2016</a> </h2></center>
+  </div>
+ <script type="text/javascript">       
+        document.getElementById('buttonGet').onclick = sendGet;
+        document.getElementById('buttonPost').onclick = sendPost;
+        document.getElementById('buttonPut').onclick = sendPut;
+        document.getElementById('buttonDelete').onclick = sendDelete;
+ </script>
+
+
+  </body>
+</html>
+

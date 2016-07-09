@@ -1,0 +1,9 @@
+D:\2 курс\l6\WebServer\WebServer\bin\Debug\WebServer.exe.config
+D:\2 курс\l6\WebServer\WebServer\obj\Debug\WebServer.csprojResolveAssemblyReference.cache
+D:\2 курс\l6\WebServer\WebServer\obj\Debug\WebServer.Form1.resources
+D:\2 курс\l6\WebServer\WebServer\obj\Debug\WebServer.Properties.Resources.resources
+D:\2 курс\l6\WebServer\WebServer\obj\Debug\WebServer.csproj.GenerateResource.Cache
+D:\2 курс\l6\WebServer\WebServer\bin\Debug\WebServer.exe
+D:\2 курс\l6\WebServer\WebServer\bin\Debug\WebServer.pdb
+D:\2 курс\l6\WebServer\WebServer\obj\Debug\WebServer.exe
+D:\2 курс\l6\WebServer\WebServer\obj\Debug\WebServer.pdb
